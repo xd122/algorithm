@@ -37,7 +37,7 @@ public class QuickSort {
      * @param end   结束位置
      */
     public void sort(int start, int end) {
-        // 防止数组越界
+        // 防止数组越界以及递归出口
         if (start > end) {
             return;
         }
